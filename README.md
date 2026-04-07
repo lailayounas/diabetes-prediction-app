@@ -38,7 +38,7 @@ Check the live app here: [Hugging Face Demo](https://huggingface.co/spaces/laila
 
 ![App Preview](assets/main_ui_screen.png)
 
-![App Demo](assets/demo.gif)  <!-- <-- Replace with your actual GIF or screenshot -->
+![App Demo](assets/main_two.png)  <!-- <-- Replace with your actual GIF or screenshot -->
 
 ---
 
