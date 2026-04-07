@@ -19,7 +19,7 @@ It uses a **machine learning model** trained on real datasets and provides insta
 ---
 
 ## Live Demo
-You can access the app here: [Hugging Face Demo](https://huggingface.co/spaces/laila123younas/diabetes-prediction-app)
+You can access the app here: [Hugging Face](https://huggingface.co/spaces/laila123younas/diabetes-prediction-app)
 
 ---
 
@@ -47,3 +47,57 @@ You can access the app here: [Hugging Face Demo](https://huggingface.co/spaces/l
 ```bash
 git clone <your-repo-link>
 cd <your-repo-folder>
+2. Create a virtual environment
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+3. Install dependencies
+pip install -r requirements.txt
+4. Run the app
+streamlit run app.py
+Hugging Face Deployment
+Create a new Space on Hugging Face
+ using Streamlit.
+Upload your project files:
+app.py
+diabetes_model.pkl
+scaler.pkl
+requirements.txt
+Optional: assets/ folder for screenshots or GIFs
+Hugging Face automatically installs dependencies and hosts the app.
+Your app is live at: https://huggingface.co/spaces/laila123younas/diabetes-prediction-app
+Docker Deployment
+# Build Docker image
+docker build -t diabetes-prediction-app .
+
+# Run container
+docker run -p 8501:8501 diabetes-prediction-app
+Project Structure
+diabetes-prediction-app/
+│
+├── app.py                 # Streamlit app
+├── diabetes_model.pkl     # Trained ML model
+├── scaler.pkl             # Preprocessing scaler
+├── requirements.txt       # Dependencies
+├── Dockerfile             # Optional Docker setup
+├── README.md              # Documentation
+├── .gitignore             # Git ignore rules
+└── assets/                # <-- Put screenshots or GIFs here
+    └── demo.gif           # <-- Example GIF file
+Technologies Used
+Python – Programming language
+Streamlit – Web interface
+scikit-learn – Machine learning
+NumPy & Pandas – Data processing
+Docker – Optional deployment
+Hugging Face Spaces – Cloud deployment
+Contributing
+
+Contributions are welcome!
+
+Fork the repository
+Create a new branch (git checkout -b feature-name)
+Commit your changes (git commit -m "Add feature")
+Push to the branch (git push origin feature-name)
+Open a Pull Request
+<!-- END OF README -->
