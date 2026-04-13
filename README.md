@@ -34,13 +34,16 @@ Check the live app here: [Hugging Face Demo](https://huggingface.co/spaces/laila
 
 ---
 
- 📸 App Preview
+ ## 📸 App Preview
 
-
+### 🖥️ Main UI Screen
 ![App Preview 1](assets/main_ui_screen.png)
-![App Preview 2](assets/main_two.png)
-![App Preview 2](assets/main_3.png)
 
+### 🧾 Input Form Screen
+![App Preview 2](assets/main_two.png)
+
+### 📊 Prediction Result Screen
+![App Preview 3](assets/main_3.png)
 
 ---
 
